@@ -1,0 +1,74 @@
+Terminal : text based inp and out operation
+
+ls : list of file of curr directory
+pwd : print working directory -- show the path of curr directory
+cd: change directory (cd.. go back prev)
+
+
+touch -- used to create n new file , and it is also used for the change the file creation time 
+
+rm -used for remove file only
+rmdir - remove dir if dir was empty
+rm -rf -- remove with the fource
+
+
+GIT:
+
+git config --list :: describe the user detailes
+
+change the use and email in GitHub
+git config --global user.name "__name__"
+git config --global user.name "__name__"
+
+
+git clone --link "used to clone the repo to local dir"
+git status -- describe the file which are tacked by the git or not , modified list of file 
+
+git add file_name - used to add the untracked file 
+
+git commit -m "commit mess" -- commit change which are add	
+
+git commit -am (add and commit)
+
+
+git push origin main -- push the changes to GitHub
+
+git init - used to create repo as git ripo
+
+git remote add origin "link" -- (git remote add) it describe specifi repo on that we want to push our directory
+
+git remote -v -- verify
+
+git branch -- show the curr branch name
+
+git branch -M (new_name) - change the branch name
+
+
+
+
+git branch:
+ 
+git checkout <Branch name> -- redirect to next branch
+git checkout -b <new Branch> -- create a new branch	
+git checkout -d <Branch name> -- delete branch
+
+
+merge code
+git diff <bn> -- used to compare two branch,  commit
+
+git merger <bn> used to merge two branch
+
+pull -- used to take back the changes from GitHub to local dir 
+
+git reset -- used to reset the last changes
+
+git reset HEAD~1 -- go back to last commit
+
+git log -- provide the info of the commit
+
+git reset --hard <commit id>  -- go back to the last commit with remove all the changes
+
+
+fork:
+
+	it is a new repo that share the new and visibility setting with the original "upstream" repo
