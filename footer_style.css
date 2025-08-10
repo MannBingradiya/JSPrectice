@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main{
+}
+
+.footer-menu{
+    display: flex;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    bottom: 0;
+}
+.playlist-first-part{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playlist-first-part i{
+    margin-left: .5rem;
+}
+
+.playlist-curr-song{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+.playlist-curr-song img{    
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.song{
+    line-height: 1.2rem;
+    margin-left: 1rem;
+}
+
+.playlist-description{
+    margin-left: 1rem;
+}
+
+.song-title{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.song-singer{
+    font-size: .75rem;
+}
+
+.playlist-sec-part{
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+.playlist-hendler{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playlist-hendler img{
+    height: .75rem;
+    width: .75rem;
+    margin-right: 1rem;
+    padding: .75rem .25rem;
+    opacity: .8;
+}
+.playlist-hendler img:hover{
+    opacity: 1;
+}
+
+.playlist-progressbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playlist-progressbar input{
+    height: 4px;
+    width: 50%;
+}
+
+.playlist-progressbar span{
+    font-size: .85rem;
+    opacity: .6;
+    padding: 0 .25rem;
+}
+.playlist-third-part{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playlist-third-part i{
+    margin-right: 1rem;
+}
+.playlist-third-part input{
+    height: 4px;
+    width: 30%;
+}

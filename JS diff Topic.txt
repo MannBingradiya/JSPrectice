@@ -1,0 +1,97 @@
+JS diff Topic:
+
+:array Methods
+:settimeOut, setIntervals, cleanIntervals
+:spread :: expand the ele of iterable ele like obj, arr, str
+:scope of func
+:higher order func, callback func, anonymous func, first order func
+:rest :: used to collect the ele into single list or obj
+
+:DOM
+:querySelector()
+:innerText,innerHTML,textContext
+:getAttribute, and setAttribute()
+:classList
+:navigation  
+:create and add ele
+:Bubbling stopPropogation		
+:call stack
+:sunchronious
+:call back hell
+:promice
+:acync & await
+
+
+JS imp topis:
+
+execution context
+everything in js happened inside the execution context
+two component
+1. memory (variable environment) : all var, and func are stored in form of key : val pair 
+2. code (thread of execution)
+
+=> manage the creation and deletion of the execution context handle by the call stack
+
+
+hoisting
+manage the var and func in execution context
+
+=> when we create the js file it is create the global execution context also the file was empty
+windows obj create in GEC
+
+undefine:(it is like placeholder)
+when ever we try to place any variable in GEC then it allocate the memory as undefine 
+
+lexical env:
+	it is a local memory with lexical env of it's parents
+
+let & const:
+	when we declare the var with let and const then it's not in the global scope it in  script
+it's called temporal deadZone
+	we can't redeclare
+
+
+
+shadowing
+	Shadowing in JavaScript occurs when a variable declared within a certain scope (like a function or block) has the same name as a variable in an outer scope
+
+clouser:
+	func binding together with it's lexical environment		
+
+
+function:
+	function statment
+	function with name and block is function statement
+	function a (){}
+
+	function expression:
+	declare func with variable 
+
+	Anonymus func:
+	func without name
+
+	first class func
+	ability to pass the func as a argumenta and return from the another func
+
+JRE (Js runtime environment)
+	js engine is a heart of JRE
+	google has a js engine which name is V8
+
+js engine has 3 part 
+code --> parsing --> complilation --> execution
+
+parsing:  inside the parsing we have syntax parser which is used to devide the code in AST(abstract syntax tree)
+
+	compilation:
+
+memory heap : is the place where all the var and fucn are assign memory
+
+Garbage collector: it used mark and sweep algo
+
+
+
+
+compiler : convert the HLL to optimized or MLL 
+
+Interpreter:  it start executing code line by line
+	

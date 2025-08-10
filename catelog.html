@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cat catalog</title>
+    <script src="./prectice.js"></script>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .catalog{
+            display: inline-block;
+            margin: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, .15);
+        }
+        .img-user{
+            width: 170px;
+            height: 190px;
+            object-fit: cover;
+        }
+        .catalog-content{
+            padding: 5px 8px;
+        }
+        .content-title{
+            font-weight: bold;
+        }
+        .content-text{
+            display: grid;
+            color: rgb(133, 133, 133);
+            margin-bottom: 10px;
+        }
+        .button-add-friend{
+            padding: 10px 15px;
+            font-size: 15px;
+            background-color: rgb(69, 69, 255);
+            color: white;
+            border: none;
+            box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.15);
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="catalog">
+        <div class="catalog-img">
+            <img src="img/download.jpeg" alt="" class="img-user">
+        </div>
+        <div class="catalog-content">
+            <div class="content-title">Oliver</div>
+            <div class="content-text">2 mutual friend</div>
+            <div>
+                <button class="button-add-friend">Add Friend</button>
+            </div>
+        </div>
+    </div>
+    <div class="catalog">
+        <div class="catalog-img">
+            <img src="img/photo-1438761681033-6461ffad8d80.jpeg " alt="" class="img-user">
+        </div>
+        <div class="catalog-content">
+            <div class="content-title">Oliver</div>
+            <div class="content-text">4 mutual friend</div>
+            <div>
+                <button class="button-add-friend">Add Friend</button>
+            </div>
+        </div>
+    </div>
+    <div class="catalog">
+        <div class="catalog-img">
+            <img src="img/download.jpeg" alt="" class="img-user">
+        </div>
+        <div class="catalog-content">
+            <div class="content-title">Oliver</div>
+            <div class="content-text">2 mutual friend</div>
+            <div>
+                <button class="button-add-friend">Add Friend</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

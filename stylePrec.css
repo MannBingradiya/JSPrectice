@@ -1,0 +1,19 @@
+section{
+    height: 2000px;
+}
+.static{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: static;
+    left: 100px;
+    top: 100px;
+}
+.absolute{
+    width: 100px;
+    height: 100px;
+    background-color: blanchedalmond;
+    position: fixed ;
+    top: 100px;
+    left: 100px;
+}

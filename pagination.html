@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagination</title>
+    <style>
+        a{
+            margin-right: 5px;
+            font-size: large;
+        }
+        button{
+            padding: 5px;
+            font-weight: 500;
+        }
+        .button-back{
+            margin-right: 10px;
+        }
+        .button-next{
+            margin-left: 10px;
+        }
+        .button-shadow{
+            margin: 10px;
+            padding: 10px 15px;
+            font-size: large;
+            background-color: green;
+            color: white;
+            border: none;
+            box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.30);
+            cursor: pointer;
+            transition: margin .2s;
+        }
+        .button-shadow:hover{
+            margin-left: 17px;
+            margin-top: 17px;
+        }
+        .img-user{
+            width: 70px;
+            height: 70px;
+            border-radius: 35px;
+            object-fit: cover;
+        }
+        .search-bar{
+            width: 300px;
+            height: 30px;
+            border: none;
+            box-shadow: 0 0 15px rgba(0,0,0,0.30);
+            border-radius: 15px;
+        }
+        .search-bar::placeholder{
+            font-weight: 500;
+            padding-left: 10px;
+            color: rgb(195, 194, 194);
+        }
+    </style>
+</head>
+<body>
+    <div class="pagination">
+        <button class="button-back">Back</button>
+        <a href="">1</a>
+        <a href="">2</a>
+        <a href="">3</a>
+        <a href="">4</a>
+        <button class="button-next">Next</button>
+    </div>
+    <div class="div-shadow">
+        <button class="button-shadow">Shadow</button>
+    </div>
+    <div class="img-shape">
+        <img src="img/download.jpeg" alt="user" class="img-user">
+    </div>
+    <div>
+        <input type="text" name="Search" id="" class="search-bar" placeholder="Search Google ot type URL">
+    </div>
+</body>
+</html>
